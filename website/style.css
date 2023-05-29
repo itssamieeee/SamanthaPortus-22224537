@@ -1,0 +1,125 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  display: block;
+}
+ header, #main-header {
+  display: block;
+}
+
+.header-image{
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),
+    url('school.jpeg');
+  height: 500px;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  font-size: 36px;
+  max-width: 780px;
+  color: white;
+  font-family:'Roboto Slab', serif;
+  text-align: center;
+  display: block;
+}
+
+.profile img {
+  border-radius: 100%;
+  border: 1px solid white;
+  width: 100px;
+  height: 100px;
+  bottom: 50px;
+  display: block;
+  position: relative;
+  margin: auto;
+  object-fit: cover;
+}
+
+section {
+  font-size: 18px;
+  line-height: 24px;
+  padding-bottom: 0px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  display: block;
+}
+
+p.name {
+  margin: -40px;
+  padding-bottom: 0px;
+  font-weight: bold;
+}
+
+p.update {
+  margin: 40px;
+  color: rgb(51,51,51);
+  margin-bottom: 0px;
+  font-style: italic;
+}
+
+#main{
+  width: 66.67%;
+  margin: auto;
+}
+
+li {
+    font-size: 36px;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+ol {
+  margin: 0px;
+  position: relative;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 36px;
+  color: rgb(51, 51, 51);
+  margin: 0px 0px 20px 40px;
+  font-family: 'Roboto Slab', serif;
+}
+
+a {
+  font-size: 24px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  font-family: 'Roboto Slab', serif;
+  color: #42b4d6;
+  text-decoration: none;
+  position: relative;
+  width: calc(100% - 40px);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.content {
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 120px;
+}
+
+.content p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  margin: 20px 0px 20px 40px;
+}
+
+.content img {
+  width: calc(100% - 40px);
+  padding-left: 40px;
+  object-fit: cover;
+}
